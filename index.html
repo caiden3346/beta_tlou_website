@@ -1,12 +1,215 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>The Last of Us - Part I</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <title>The Last of Us - Survivor's Guide</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>The Last of Us - Part I</h1>
+        <h1>THE LAST OF US</h1>
+        <p class="tagline">"Endure and Survive" - by <a href="https://gameinsight.info">Game Insight</a></p>
     </header>
-<html>
+
+    <nav>
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#story">Story</a></li>
+            <li><a href="#infected">The Infected</a></li>
+            <li><a href="#outbreak">Outbreak History</a></li>
+            <li><a href="#survival">Survival Tips</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="overview">
+            <h2>Game Overview</h2>
+            <p>The Last of Us is a critically acclaimed action-adventure game developed by Naughty Dog. Set in a post-apocalyptic United States, the game follows Joel, a hardened survivor, and Ellie, a young girl who may be humanity's last hope.</p>
+            
+            <div class="highlight">
+                <strong>Genre:</strong> Action-Adventure, Survival Horror<br>
+                <strong>Developer:</strong> Naughty Dog<br>
+                <strong>Release:</strong> June 14, 2013 (PS3) | Remastered 2014 (PS4) | Part II 2020 (PS4)<br>
+                <strong>Setting:</strong> Post-pandemic United States, 2033 (20 years after outbreak)
+            </div>
+
+            <h3>Core Gameplay</h3>
+            <p>Players navigate through dangerous environments, scavenging for supplies, crafting weapons and tools, and engaging in combat with both infected creatures and hostile human survivors. Stealth and resource management are crucial for survival.</p>
+        </section>
+
+        <section id="story">
+            <h2>The Story</h2>
+            <h3>Main Plot</h3>
+            <p>In 2033, twenty years after a fungal pandemic devastated civilization, Joel is tasked with smuggling 14-year-old Ellie across the United States. Ellie is immune to the infection, and the Fireflies (a resistance group) believe she may be the key to developing a cure.</p>
+            
+            <p>What begins as a simple job evolves into a profound journey as Joel and Ellie form a deep bond while facing infected hordes, ruthless bandits, and moral dilemmas. Their cross-country trek forces them to confront their pasts and question what it means to survive versus truly living.</p>
+
+            <h3>Key Characters</h3>
+            <p><strong>Joel Miller:</strong> A cynical survivor haunted by his past. Once a loving father, the outbreak transformed him into a hardened smuggler willing to do whatever it takes to survive.</p>
+            
+            <p><strong>Ellie Williams:</strong> A sharp-witted 14-year-old who grew up in the post-outbreak world. Born after the pandemic began, she represents hope for humanity's future due to her immunity.</p>
+
+            <p><strong>Tess:</strong> Joel's smuggling partner and close ally in the Boston quarantine zone.</p>
+
+            <p><strong>The Fireflies:</strong> A revolutionary militia group fighting against the oppressive military quarantine zones and searching for a cure.</p>
+        </section>
+
+        <section id="infected">
+            <h2>The Infected - Types & Stages</h2>
+            <p>The Cordyceps Brain Infection mutates humans through distinct stages, each more dangerous than the last. Understanding each type is crucial for survival.</p>
+
+            <div class="infected-grid">
+                <div class="infected-card">
+                    <span class="stage">Stage 1</span>
+                    <h3>Runners</h3>
+                    <div class="danger-level">
+                        <strong>Danger:</strong>
+                        <div class="danger-bar"><div class="danger-fill" style="width: 40%"></div></div>
+                    </div>
+                    <p><strong>Infection Time:</strong> 2 days - 2 weeks</p>
+                    <p><strong>Characteristics:</strong> Recently infected humans who still retain some humanity. They can run quickly, attack in groups, and are attracted to sound and movement.</p>
+                    <p><strong>Behavior:</strong> Aggressive and fast. Will chase prey and alert others. Still possess eyesight.</p>
+                    <p><strong>Weakness:</strong> Can be taken down with melee weapons or gunfire relatively easily.</p>
+                </div>
+
+                <div class="infected-card">
+                    <span class="stage">Stage 2</span>
+                    <h3>Stalkers</h3>
+                    <div class="danger-level">
+                        <strong>Danger:</strong>
+                        <div class="danger-bar"><div class="danger-fill" style="width: 55%"></div></div>
+                    </div>
+                    <p><strong>Infection Time:</strong> 2 weeks - 1 year</p>
+                    <p><strong>Characteristics:</strong> Fungus begins to spread across the face. They hide and wait to ambush victims, displaying more cunning behavior.</p>
+                    <p><strong>Behavior:</strong> Combines the speed of Runners with primitive stealth tactics. Will hide behind cover and peek out.</p>
+                    <p><strong>Weakness:</strong> More durable than Runners but can still be eliminated with standard weapons.</p>
+                </div>
+
+                <div class="infected-card">
+                    <span class="stage">Stage 3</span>
+                    <h3>Clickers</h3>
+                    <div class="danger-level">
+                        <strong>Danger:</strong>
+                        <div class="danger-bar"><div class="danger-fill" style="width: 75%"></div></div>
+                    </div>
+                    <p><strong>Infection Time:</strong> 1 year+</p>
+                    <p><strong>Characteristics:</strong> Fungal plates have completely covered their faces, causing blindness. They navigate using echolocation, producing distinctive clicking sounds.</p>
+                    <p><strong>Behavior:</strong> Cannot see but have exceptional hearing. One bite is instantly fatal. Extremely dangerous in close quarters.</p>
+                    <p><strong>Weakness:</strong> Blind, so stealth is effective. Require powerful weapons or stealth kills to eliminate.</p>
+                </div>
+
+                <div class="infected-card">
+                    <span class="stage">Stage 4</span>
+                    <h3>Bloaters</h3>
+                    <div class="danger-level">
+                        <strong>Danger:</strong>
+                        <div class="danger-bar"><div class="danger-fill" style="width: 95%"></div></div>
+                    </div>
+                    <p><strong>Infection Time:</strong> Several years</p>
+                    <p><strong>Characteristics:</strong> Massive infected covered in thick fungal armor plates. The most dangerous standard infected type.</p>
+                    <p><strong>Behavior:</strong> Incredibly strong and durable. Can rip victims apart with bare hands and throw spore bombs that create toxic clouds.</p>
+                    <p><strong>Weakness:</strong> Slow movement. Require explosives, flamethrowers, or sustained heavy fire to defeat.</p>
+                </div>
+
+                <div class="infected-card">
+                    <span class="stage">Stage 5</span>
+                    <h3>Shamblers</h3>
+                    <div class="danger-level">
+                        <strong>Danger:</strong>
+                        <div class="danger-bar"><div class="danger-fill" style="width: 85%"></div></div>
+                    </div>
+                    <p><strong>Infection Time:</strong> Many years (humid environments)</p>
+                    <p><strong>Characteristics:</strong> Found in areas with high moisture. Covered in acidic spore sacs that burst when damaged.</p>
+                    <p><strong>Behavior:</strong> Shambles slowly but releases caustic acid clouds when attacked or upon death. Highly resistant to damage.</p>
+                    <p><strong>Weakness:</strong> Extremely vulnerable to fire. Avoid close combat due to acid clouds.</p>
+                </div>
+
+                <div class="infected-card">
+                    <span class="stage">Final Stage</span>
+                    <h3>Rat King</h3>
+                    <div class="danger-level">
+                        <strong>Danger:</strong>
+                        <div class="danger-bar"><div class="danger-fill" style="width: 100%"></div></div>
+                    </div>
+                    <p><strong>Infection Time:</strong> Decades</p>
+                    <p><strong>Characteristics:</strong> An extremely rare abomination formed when multiple infected fuse together over decades in isolation.</p>
+                    <p><strong>Behavior:</strong> Possesses abilities of multiple infected types. Incredibly aggressive, durable, and deadly. Can split into separate entities.</p>
+                    <p><strong>Weakness:</strong> Requires maximum firepower and all available resources. Extreme threat level.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="outbreak">
+            <h2>The Outbreak - A Timeline</h2>
+            <p>The Cordyceps Brain Infection transformed the world in a matter of weeks, collapsing civilization and reshaping humanity's existence.</p>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="year">Late September 2013</span>
+                    <h3>Patient Zero</h3>
+                    <p>The infection begins, likely through contaminated crops from South America. The Cordyceps fungus, which previously only infected insects, mutates to affect humans through bites or spore inhalation.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="year">September 26, 2013</span>
+                    <h3>Outbreak Day</h3>
+                    <p>Panic spreads across the United States as the infection rapidly spreads through major cities. Emergency broadcasts warn citizens to stay indoors. Joel's daughter Sarah is killed during the chaos.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="year">October 2013</span>
+                    <h3>Societal Collapse</h3>
+                    <p>Within weeks, 60% of humanity is dead or infected. Governments fall. Military forces establish quarantine zones in remaining cities, enforcing martial law with extreme prejudice.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="year">2013-2020s</span>
+                    <h3>The Dark Years</h3>
+                    <p>Survivors struggle in oppressive quarantine zones run by FEDRA (Federal Disaster Response Agency). Outside the zones, the infected roam freely. The Fireflies emerge as a resistance group. Spores from the fungus make many areas uninhabitable.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="year">2033</span>
+                    <h3>Twenty Years Later</h3>
+                    <p>The world has stabilized into a new, harsh reality. Joel works as a smuggler in the Boston QZ. Ellie is born immune to the infection, offering the first hope for a cure. The main events of The Last of Us begin.</p>
+                </div>
+            </div>
+
+            <div class="highlight">
+                <h3>The Cordyceps Fungus</h3>
+                <p>The infection is based on the real-world Ophiocordyceps unilateralis fungus, which controls the behavior of ants. In the game, a mutated strain affects humans, growing through the body and eventually bursting from the head. The fungus spreads through:</p>
+                <ul style="margin-left: 2rem; margin-top: 0.5rem;">
+                    <li>Bites from infected individuals</li>
+                    <li>Inhalation of airborne spores in contaminated areas</li>
+                    <li>Any exchange of bodily fluids with infected hosts</li>
+                </ul>
+                <p style="margin-top: 0.5rem;">There is no known cure, and infection is 100% fatal unless you possess a rare natural immunity like Ellie.</p>
+            </div>
+        </section>
+
+        <section id="survival">
+            <h2>Survival Tips for New Players</h2>
+            
+            <h3>Resource Management</h3>
+            <p>Supplies are scarce. Explore thoroughly, search every container, and craft items strategically. Prioritize crafting health kits and shivs (essential for stealth kills on Clickers and opening locked doors).</p>
+
+            <h3>Stealth is Key</h3>
+            <p>Avoiding combat often saves resources and health. Use Listen Mode to detect enemies through walls. Throw bottles or bricks to distract infected and human enemies, creating openings for stealth takedowns or safe passage.</p>
+
+            <h3>Know Your Enemy</h3>
+            <p>Runners and Stalkers can see you; stay behind cover. Clickers are blind but hear everything; crouch-walk slowly near them. Bloaters require heavy firepower; use explosives or fire. Human enemies use tactics and guns; use stealth or take cover.</p>
+
+            <h3>Upgrade Wisely</h3>
+            <p>Find workbenches to upgrade weapons and pills to enhance Joel's abilities. Prioritize weapon sway reduction, health upgrades, and listen mode range early on. Later, focus on damage and reload speed.</p>
+
+            <h3>Ammo Conservation</h3>
+            <p>Bullets are precious. Use melee weapons when possible (they break, so keep spares). Headshots are critical for efficiency. Sometimes running away is the best option, especially in areas with respawning enemies.</p>
+
+            <div class="highlight">
+                <strong>Remember:</strong> This is a game about survival, not combat prowess. Being smart and cautious will get you further than trying to fight everything. Sometimes the bravest choice is to avoid conflict entirely.
+            </div>
+        </section>
+    </div>
+</body>
+</html>
